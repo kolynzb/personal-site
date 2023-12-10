@@ -1,0 +1,34 @@
+{
+    "fb": {
+        "url": "https://facebook.com/atuhaire.collins.161",
+        "icon": "fab fa-facebook-f"
+    },
+    "twitter": {
+        "url": "https://twitter.com/Kolynz_b",
+        "icon": "fab fa-twitter"
+    },
+    "instagram": {
+        "url": "https://www.instagram.com/ko.lynz_b",
+        "icon": "fab fa-instagram"
+    },
+    "linked": {
+        "url": "https://www.linkedin.com/",
+        "icon": "fab fa-linkedin-in"
+    },
+    "yt": {
+        "url": "https://www.youtube.com/channel/UCEX8njTxDKSx3OzvMDkht5A",
+        "icon": "fab fa-youtube"
+    },
+    "pinterest": {
+        "url": "https://www.pinterest.com/kolynz_b",
+        "icon": "fab fa-pinterest"
+    },
+    "discord": {
+        "url": "https://discord.com/",
+        "icon": "fab fa-discord"
+    },
+    "slack": {
+        "url": "https://api.whatsapp.com/send?phone=256784330349",
+        "icon": "fab fa-slack"
+    }
+}
