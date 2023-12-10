@@ -36,8 +36,8 @@ const Testimonials: React.FC<Props> = ({ testimonials }) => {
             <div className="col-md-1 col-xl-2 d-none d-lg-block"></div>
             <div className="col-xl-5 col-lg-6 col-md-7">
               <div className="carousel-testimonial a-carousel-testimonial owl-carousel owl-theme animate-element delay5 fadeInDown">
-                {testimonials.map((testimonial) => (
-                  <TestimonialCard testimonial={testimonial} />
+                {testimonials.map((testimonial, key) => (
+                  <TestimonialCard testimonial={testimonial} key={key} />
                 ))}
               </div>
             </div>

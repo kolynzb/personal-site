@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { IAward } from "@lib/sanity.interface";
 import React from "react";
 import { dateToMonthYearFormat } from "@utils/datetime";

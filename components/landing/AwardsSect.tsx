@@ -28,8 +28,8 @@ const AwardsSect: React.FC<Props> = ({ awards }) => {
             </div>
           </div>
           <div className="row award-list animate-element delay5 fadeInUp">
-            {awards.map((award) => (
-              <AwardSlide award={award} />
+            {awards.map((award, key) => (
+              <AwardSlide award={award} key={key} />
             ))}
           </div>
         </div>

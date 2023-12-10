@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { getProject } from "@lib/sanity.api";
 import React from "react";
 

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { ITestimonial } from "@lib/sanity.interface";
 import React from "react";
 

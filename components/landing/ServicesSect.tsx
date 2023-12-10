@@ -68,10 +68,11 @@ const ServicesSect = (props: Props) => {
             </div>
             <div className="col-md-8">
               <div className="service-list row">
-                {props.services.map((service) => (
+                {props.services.map((service,key) => (
                   <ServiceCard
                     name={service.name}
                     description={service.description}
+                    key={key}
                   />
                 ))}
               </div>
